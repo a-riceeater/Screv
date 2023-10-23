@@ -9,7 +9,7 @@ app.use(favicon(path.join(__dirname, "public", "favicon_square.ico")));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
-    res.send("Hello");
+    res.sendFile(path.join(__dirname, "html", "index.html"))
 })
 
 app.listen(3000, (req, res) => {
