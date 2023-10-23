@@ -17,3 +17,8 @@
     font-family: "Raleway";
     src: url("/fonts/Raleway-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Tilt Neon";
+    src: url("/fonts/TiltNeon-Regular.ttf");
+}
