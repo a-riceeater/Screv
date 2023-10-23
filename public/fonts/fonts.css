@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Robot-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("/fonts/Nunito-sans.ttf");
+}
+
+@font-face {
+    font-family: "Nunito Bold";
+    src: url("/fonts/NunitoSans_10pt-Bold.ttf")
+}
