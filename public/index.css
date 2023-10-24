@@ -6,6 +6,7 @@
     height: 60px;
     display: flex;
     align-items: center;
+    padding-left: 25%;
 }
 
 .topbar > .logo {
