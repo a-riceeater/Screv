@@ -40,17 +40,22 @@ body {
     position: absolute;
     right: 5%;
     padding-right: 5%;
+    text-decoration: none;
 }
 
-.topbar > .buttons > button {
-    width: 120px;
+.topbar > .buttons > a > button {
+    width: 150px;
     cursor: pointer;
     height: 35px;
     font-size: 14px;
     font-weight: 700;
 }
 
-.topbar > .buttons > .tbl-login {
+.topbar > .buttons > a {
+    text-decoration: none;
+}
+
+.topbar > .buttons > a > .tbl-login {
     margin-right: 20px;
     background-color: transparent;
     border: 2px solid var(--c5);
@@ -58,7 +63,7 @@ body {
     color: var(--c5);
 }
 
-.topbar > .buttons > .tbl-start {
+.topbar > .buttons > a > .tbl-start {
     background-color: var(--c2);
     color: black;
     border: none;
