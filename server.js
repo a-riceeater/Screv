@@ -8,6 +8,8 @@ app.use(express.json());
 app.use(favicon(path.join(__dirname, "public", "favicon_square.ico")));
 app.use(express.static(path.join(__dirname, "public")));
 
+app.use("/auth", require(path.join(__dirname, "server", "routers", "auth.js")));
+
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "html", "index.html"))
 })
