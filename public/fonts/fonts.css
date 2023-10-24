@@ -22,3 +22,8 @@
     font-family: "Tilt Neon";
     src: url("/fonts/TiltNeon-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins-Regular.ttf")
+}

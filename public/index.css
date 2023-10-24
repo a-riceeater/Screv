@@ -15,6 +15,7 @@
     font-size: 2em;
     color: var(--mc);
     vertical-align: middle;
+    text-decoration: none;
 }
 
 .topbar > .logo > img {
@@ -23,12 +24,12 @@
     width: 15%;
 }
 
-.topbar > .logo > a {
+.topbar > .logo > span {
     vertical-align: middle;
     text-decoration: none;
     color: var(--mc);
     margin-left: 15px;
-    font-family: "Raleway", serif;
+    font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -41,11 +42,25 @@ body {
     padding-right: 5%;
 }
 
+.topbar > .buttons > button {
+    width: 120px;
+    cursor: pointer;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
 .topbar > .buttons > .tbl-login {
     margin-right: 20px;
-    width: 120px;
+    background-color: transparent;
+    border: 2px solid var(--c5);
+    font-family: "Raleway", sans-serif;
+    color: var(--c5);
 }
 
 .topbar > .buttons > .tbl-start {
-    width: 120px;
+    background-color: var(--c2);
+    color: black;
+    border: none;
+    font-family: "Poppins", sans-serif;
 }
