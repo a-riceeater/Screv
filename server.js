@@ -13,5 +13,5 @@ app.get("/", (req, res) => {
 })
 
 app.listen(3000, (req, res) => {
-    console.log("Running at port 80");
+    console.log("Running at port 3000");
 })

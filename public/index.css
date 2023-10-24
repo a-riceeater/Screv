@@ -6,7 +6,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    padding-left: 25%;
+    padding-left: 5%;
 }
 
 .topbar > .logo {
@@ -14,5 +14,27 @@
     margin-bottom: 0;
     font-size: 2em;
     color: var(--mc);
-    font-family: "Tilt Neon", sans-serif;
+    vertical-align: middle;
+}
+
+.topbar > .logo > img {
+    vertical-align: middle;
+    height: 15%;
+    width: 15%;
+}
+
+.topbar > .logo > a {
+    vertical-align: middle;
+    text-decoration: none;
+    color: var(--mc);
+    margin-left: 15px;
+    font-family: "Raleway", serif;
+}
+
+body {
+    background-color: var(--c3);
+}
+
+.topbar > .buttons {
+    
 }
