@@ -27,3 +27,13 @@
     font-family: "Poppins";
     src: url("/fonts/Poppins-Regular.ttf")
 }
+
+@font-face {
+    font-family: "Forgotten";
+    src: url("/fonts/forgotten.otf");
+}
+
+@font-face {
+    font-family: "Kenyan";
+    src: url("/fonts/kenyan-rg.otf")
+}

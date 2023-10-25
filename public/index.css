@@ -69,3 +69,16 @@ body {
     border: none;
     font-family: "Poppins", sans-serif;
 }
+
+.content {
+    position: fixed;
+    top: calc(70px * 3);
+    left: 0;
+    left: 5%;
+}
+
+.content > .bt {
+    font-weight: 900;
+    font-size: 48px;
+    font-family: "Kenyan", sans-serif;
+}
